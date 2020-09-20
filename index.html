@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Website Merger</title>
+</head>
+
+<style>
+    body {
+        margin: 0px;
+        height: 100%;
+        background-attachment: fixed;
+        background: radial-gradient(#010101, #212121);
+        background-repeat: space;
+        font-family: sans-serif;
+        color: white;
+        overflow: hidden; 
+    }
+
+    h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    input,
+    label {
+        display: block;
+        margin-top: 30px;
+        font-size: 25px;
+        
+    }
+
+    input{
+        background-color:#17a2b8;
+        border: none;
+
+        padding: 15px 45px;
+        color: white;
+    }
+
+    #submit:hover{
+        background-color: red;
+    }
+
+    #buymeacoffe{
+        margin-top: 120px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Merge two websites together!</h1>
+
+        <form action="merge.php">
+            <label for="website1">First Website</label>
+            <input type="text" id="website1" name="website1">
+
+            <label for="website2">Second Website</label>
+            <input type="text" id="website2" name="website2">
+            <br>
+            <input type="submit" id="submit" value="Merge!">
+        </form>
+        <div id="buymeacoffe">
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="EvilFactory" data-color="#5F7FFF" data-emoji=""  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#000" data-font-color="#fff" data-coffee-color="#fd0" ></script>    </center>
+        </div>
+</body>
+
+</html>
